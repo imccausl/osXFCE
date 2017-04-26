@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Arc-Flatabulous
+Comment=A flat theme with transparent elements and mac like window controls
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Arc-Flatabulous
+MetacityTheme=Arc-Flatabulous
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
