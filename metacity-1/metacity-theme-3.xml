@@ -10,7 +10,7 @@
 
 <!-- meaningfull constants -->
 
-<constant name="C_title_focused" value="gtk:custom(wm_title,#70788d)" />
+<constant name="C_title_focused" value="gtk:custom(wm_title,#000000)" />
 <constant name="C_title_unfocused" value="gtk:custom(wm_unfocused_title,#979dac)" />
 
 <constant name="C_wm_bg_focused" value="gtk:custom(wm_bg,#e7e8eb)" />
@@ -29,7 +29,7 @@
 	<distance name="title_vertical_pad" value="3"/>
 	<border name="title_border" left="10" right="10" top="3" bottom="3"/>
 	<border name="button_border" left="0" right="0" top="0" bottom="0"/>
-  <distance name="button_width" value="30"/>
+  <distance name="button_width" value="22"/>
   <distance name="button_height" value="16"/>
 </frame_geometry>
 

@@ -10,7 +10,7 @@
 
 <!-- meaningfull constants -->
 
-<constant name="C_title_focused" value="#70788d" />
+<constant name="C_title_focused" value="#000000" />
 <constant name="C_title_unfocused" value="#979dac" />
 
 <constant name="C_wm_bg_focused" value="#e7e8eb" />
@@ -48,7 +48,7 @@
 	<distance name="right_titlebar_edge" value="2"/>
 	<distance name="title_vertical_pad" value="3"/>
 	<border name="title_border" left="10" right="10" top="3" bottom="3"/>
-	<border name="button_border" left="3" right="3" top="0" bottom="0"/>
+	<border name="button_border" left="0" right="0" top="0" bottom="0"/>
 	<aspect_ratio name="button" value="1.0" />
 </frame_geometry>
 
