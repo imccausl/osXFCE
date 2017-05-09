@@ -2904,7 +2904,7 @@ decoration {
     box-shadow: none; }
 
 .title {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 headerbar.default-decoration button.titlebutton,
