@@ -1515,7 +1515,7 @@ treeview.view {
     .menu { /* menu text of drop down part */
       margin: 4px;
       padding: 2px 0px;
-      font-weight: 500;
+      font-weight: 600;
       background-color: #fcfcfc;
       border: 1px solid #858585;
       color: #2b2b2b; }
