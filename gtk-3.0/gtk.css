@@ -2915,6 +2915,7 @@ decoration {
 
 .title {
     font-weight: 500;
+    color: #353535;
 }
 
 headerbar.default-decoration button.titlebutton,
@@ -3555,7 +3556,7 @@ panel-toplevel.background na-tray-applet {
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
-  color: #000000;
+  color: #353535;
   border-radius: 0;
   border: none;
   background-color: rgba(43, 46, 55, 0); }
