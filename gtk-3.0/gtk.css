@@ -1534,10 +1534,15 @@ treeview.view {
     /*********
      * Menus *
      *********/
+
+   /* GtkTreeMenu .menuitem {
+      padding: 2px;
+    }*/
+
     menubar,
     .menubar {
       -GtkWidget-window-dragging: true;
-      padding: 0px; }
+      padding: 0; }
       menubar:backdrop,
       .menubar:backdrop {
         background-color: #cecece;}
@@ -1561,7 +1566,7 @@ treeview.view {
 .content-view .menu,
 .menu,
 .popup {
-    padding: 2px 0;
+    /*padding: 4px 0;*/
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
 
@@ -1573,8 +1578,7 @@ treeview.view {
 
     menu,
     .menu { /* menu text of drop down part */
-      margin: 0px;
-      padding: 0px;
+      padding: 4px 0;
       font-weight: 500;
       background-color: #fcfcfc;
       border: 1px solid #858585;
