@@ -1535,10 +1535,6 @@ treeview.view {
      * Menus *
      *********/
 
-   /* GtkTreeMenu .menuitem {
-      padding: 2px;
-    }*/
-
     menubar,
     .menubar {
       -GtkWidget-window-dragging: true;
