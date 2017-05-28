@@ -1507,7 +1507,7 @@ treeview.view {
 .content-view .menu,
 .menu,
 .popup {
-
+    padding: 2px 0;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
   }
