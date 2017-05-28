@@ -931,12 +931,12 @@ headerbar,
     .csd .titlebar:backdrop:not(headerbar) {
       background-color: rgba(239, 240, 242, 0.95); }
   headerbar .title, .titlebar:not(headerbar) .title {
-    padding-left: 12px;
-    padding-right: 12px; }
+    padding-left: 7px;
+    padding-right: 7px; }
   headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
     font-size: smaller;
-    padding-left: 12px;
-    padding-right: 12px; }
+    padding-left: 7px;
+    padding-right: 7px; }
   headerbar.selection-mode,
   .selection-mode.titlebar:not(headerbar) {
     color: #ffffff;
@@ -980,7 +980,7 @@ headerbar,
   .default-decoration.titlebar:backdrop:not(headerbar),
   .csd .default-decoration.titlebar:backdrop:not(headerbar) {
     min-height: 28px;
-    padding: 0 3px;
+    padding: 0 5px;
     background-color: #e7e8eb;
     border-bottom-width: 0; }
     .maximized headerbar.default-decoration, .maximized
@@ -1021,7 +1021,7 @@ headerbar:last-child, headerbar:last-child:backdrop {
 window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop,
 window.csd > .titlebar:not(headerbar),
 window.csd > .titlebar:not(headerbar):backdrop {
-  padding: 0;
+  padding: 0 10px;
   background: none;
   border: none;
   box-shadow: none; }
