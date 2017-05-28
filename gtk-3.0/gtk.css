@@ -1503,19 +1503,20 @@ treeview.view {
           color: #858585;
           box-shadow: none; }
 
-	.menubar window,
-	menubar window,
-	#appmenu-2 menubar menuitem window {
-		border-bottom-right-radius: 10px;
-		border-bottom-left-radius: 10px;
-	}
-		
+		menu,
+.content-view .menu,
+.menu,
+.popup {
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
 
     menu,
     .menu { /* menu text of drop down part */
       margin: 2px;
-      padding: 1px 0px;
-      font-weight: 600;
+      padding: 0px;
+      font-weight: 500;
       background-color: #fcfcfc;
       border: 1px solid #858585;
       color: #2b2b2b; }
