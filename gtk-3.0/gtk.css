@@ -1096,7 +1096,7 @@ headerbar:last-child, headerbar:last-child:backdrop {
 window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop,
 window.csd > .titlebar:not(headerbar),
 window.csd > .titlebar:not(headerbar):backdrop {
-  padding: 0 10px;
+  padding: 0;
   background: none;
   border: none;
   box-shadow: none; }
