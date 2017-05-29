@@ -1070,7 +1070,9 @@ headerbar,
       background-color: #e7e8eb; }
 
 .titlebar {
-  border-radius: 5px 5px 0 0; }
+  border-radius: 5px 5px 0 0; 
+  
+}
 
 headerbar entry, headerbar button, headerbar separator {
   margin-top: 6px;
@@ -1611,8 +1613,7 @@ treeview.view {
 	}
       menu:backdrop,
       .menu:backdrop {
-        background-color: #f9f9f9;
-        opacity: 0.6;}
+        background-color: rgba(249,249,249,0.6);}
       menu menuitem,
       .menu menuitem {
         min-height: 16px;
