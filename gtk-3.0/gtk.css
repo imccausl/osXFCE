@@ -1618,7 +1618,7 @@ treeview.view {
       .menu menuitem {
         min-height: 16px;
         min-width: 40px;
-        padding: 4px 6px;
+        padding: 2px 6px;
         text-shadow: none;
          }
         menu menuitem:hover,
