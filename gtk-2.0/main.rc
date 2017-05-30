@@ -945,7 +945,7 @@ style "button" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/panel-background-hover.png" #changed from button-hover.png
+      file = "assets/button-hover.png" #changed from button-hover.png
       border = { 4, 4, 4, 4 }
       stretch = TRUE
     }
