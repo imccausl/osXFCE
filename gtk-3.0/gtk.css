@@ -1722,6 +1722,29 @@ menubar.-vala-panel-appmenu-private:nth-child(1) menuitem label {
   border-radius: 0;
 }
 
+/*
+ * XFCE4 Panel Indicators and Applet styling
+ ****/
+
+.xfce4-panel widget button:hover, #tasklist-button:hover {
+  background-color: inherit;
+  color: transparent;
+  -gtk-outline-radius: 0;
+  outline-color: transparent;
+  outline-style: none;
+  outline-offset: 0;
+    outline-width: 0;
+  outline: none;
+}
+
+.xfce4-panel button#xfce4-clipman-plugin:hover{
+  background-color: transparent;
+}
+
+.xfce4-panel #xfce4-power-manager-plugin:hover {
+  background-color: inherit;
+}
+
 popover,
 popover.background {
   padding: 2px;
