@@ -1730,6 +1730,13 @@ menubar.-vala-panel-appmenu-private:nth-child(1) menuitem label {
   -gtk-icon-effect: none;
 }
 
+#xfce4-power-manager-plugin label {
+  font-weight: 500;
+  margin-left: 5px;
+  color: #353535;
+}
+
+
 .xfce4-panel widget button:hover, #tasklist-button:hover {
   background-color: inherit;
   color: inherit;
