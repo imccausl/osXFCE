@@ -21,7 +21,7 @@
 @define-color selected_fg_color #FFF;
 @define-color text_color #333;
 @define-color text_shadow_color alpha (#fff, 0.4);
-@define-color titlebar_color #DEDEDE;
+@define-color titlebar_color #E7E8EB;
 @define-color title_color shade (@titlebar_color, 0.55);
 @define-color title_shadow_color alpha (#fff, 0.6);
 @define-color tooltip_bg_color #000;
@@ -54,14 +54,14 @@
 
 * {
   background-clip: padding-box;
-  -GtkToolButton-icon-spacing: 4;
+  -GtkToolButton-icon-spacing: 2;
   -GtkTextView-error-underline-color: #FC4138;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
   -GtkWidget-text-handle-width: 20;
   -GtkWidget-text-handle-height: 20;
   -GtkDialog-button-spacing: 4;
-  -GtkDialog-action-area-border: 0;
+  -GtkDialog-action-area-border: 10;
   outline-color: alpha(currentColor,0.3);
   outline-style: dashed;
   outline-offset: -3px;
@@ -897,7 +897,7 @@ combobox arrow {
 
 toolbar, .toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
-  padding: 4px;
+  padding: 2px;
   background-color: #F5F6F7;
    
     border: 1px solid shade (@titlebar_color, 0.56);
@@ -1568,7 +1568,7 @@ treeview.view {
     -GtkWidget-window-dragging: true; }
       menubar:backdrop,
       .menubar:backdrop {
-        background-color: #cecece;}
+        background-color: #E7E8EB;}
       menubar > menuitem,
       .menubar > menuitem { /* main menu items in panel */
         font-weight: 600;
@@ -1585,20 +1585,28 @@ treeview.view {
           color: #858585;
           box-shadow: none; }
 
-		menu,
+    menu,
 .content-view .menu,
 .menu,
-.popup {
-    /*padding: 4px 0;*/
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-
-    box-shadow:
-        inset 0 0 0 1px alpha (@bg_highlight_color, 0.1),
-        inset 0 1px 0 0 alpha (@bg_highlight_color, 0.9),
-        inset 0 -1px 0 0 alpha (@bg_highlight_color, 0.3);
+.popup,
+.content-view .menu button {
+    padding: 4px;
+  margin: 0;
+  -gtk-outline-radius: 0;
+  background-origin: padding-box;
+  outline-offset: 0;
+  
   }
 
+toolbutton button {
+  padding: 1px;
+  margin: 0;
+  background-color: inherit;
+  border-radius: 3px;
+  outline-width: 0;
+  min-height: 10px;
+  min-width: 10px;
+}
     menu,
     .menu { /* menu text of drop down part */
       padding: 4px 0;
@@ -4095,15 +4103,15 @@ GtkListBox .h4 {
 
 #panel_window {
   background-color: rgba(43, 46, 55, 0.95);
-  color: #BAC3CF;
+  color: #e7e8eb
   font-weight: bold;
   box-shadow: inset 0 -1px rgba(27, 29, 35, 0.95); }
   #panel_window menubar {
     padding-left: 5px; }
     #panel_window menubar, #panel_window menubar > menuitem {
       background-color: transparent;
-      color: #BAC3CF;
-      font-weight: bold; }
+      color: #e7e8eb
+      font-weight: 500; }
   #panel_window menubar menuitem:disabled {
     color: rgba(186, 195, 207, 0.5); }
     #panel_window menubar menuitem:disabled label {
