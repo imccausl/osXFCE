@@ -1585,7 +1585,11 @@ treeview.view {
           color: #858585;
           box-shadow: none; }
 
-    menu,
+menu {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .content-view .menu,
 .menu,
 .popup,
