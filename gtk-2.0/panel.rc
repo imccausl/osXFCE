@@ -29,6 +29,28 @@ style "theme-panel" {
     textstyle = 0
     contrast = 0.0
   }
+
+  engine "pixmap"
+  {
+          image
+          {
+                  function                = BOX
+                  recolorable             = TRUE
+                  state                   = PRELIGHT
+                  file                    = "assets/panel-button-hover.png"
+                  border                  = { 1, 1, 0, 0 }
+                  stretch                 = TRUE
+          }
+          image
+          {
+                  function                = BOX
+                  recolorable             = TRUE
+                  state                   = ACTIVE
+                  file                    = "assets/panel-button-hover.png"
+                  border                  = { 1, 1, 0, 0 }
+                  stretch                 = TRUE
+          }
+  }
 }
 
 style "theme-panel-progressbar" {
@@ -54,6 +76,28 @@ style "panelbuttons" {
 
   engine "murrine" {
     textstyle = 0
+  }
+
+  engine "pixmap"
+  {
+          image
+          {
+                  function                = BOX
+                  recolorable             = TRUE
+                  state                   = PRELIGHT
+                  file                    = "assets/panel-button-hover.png"
+                  border                  = { 1, 1, 0, 0 }
+                  stretch                 = TRUE
+          }
+          image
+          {
+                  function                = BOX
+                  recolorable             = TRUE
+                  state                   = ACTIVE
+                  file                    = "assets/panel-button-hover.png"
+                  border                  = { 1, 1, 0, 0 }
+                  stretch                 = TRUE
+          }
   }
 }
 
