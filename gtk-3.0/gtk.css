@@ -975,16 +975,14 @@ headerbar,
 .titlebar:not(headerbar) {
   min-height: 42px;
   padding: 0 7px;
-  border-width: 0 0 1px;
-  border-style: solid;
-  border-color: #d4d5db;
   color: rgba(0, 0, 0, 1);
-  background-color: #e7e8eb;
+  background-image: linear-gradient(#E7E8EB,#DEDEDE);
+  background-color: #FFFFFF;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-color: rgba(231, 232, 235, 0.95);
-    border-color: rgba(212, 213, 219, 0.95); }
+    background-image: linear-gradient(#E7E8EB,#DEDEDE);
+    background-color: #FFFFFF; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
