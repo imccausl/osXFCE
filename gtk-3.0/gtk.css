@@ -976,12 +976,12 @@ headerbar,
   min-height: 42px;
   padding: 0 7px;
   color: rgba(0, 0, 0, 1);
-  background-image: linear-gradient(#E7E8EB,#DEDEDE);
+  background-image: linear-gradient(#EFEFEF, #DDDDDD);
   background-color: #FFFFFF;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-image: linear-gradient(#E7E8EB,#DEDEDE);
+    background-image: linear-gradient(#EFEFEF, #DDDDDD);
     background-color: #FFFFFF; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
