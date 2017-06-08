@@ -23,7 +23,7 @@
 @define-color text_shadow_color alpha (#fff, 0.4);
 @define-color titlebar_color #E7E8EB;
 @define-color title_color shade (@titlebar_color, 0.55);
-@define-color title_shadow_color alpha (#fff, 0.6);
+@define-color title_shadow_color alpha (#fff, 1);
 @define-color tooltip_bg_color #000;
 @define-color tooltip_fg_color #FFF;
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
@@ -898,25 +898,14 @@ combobox arrow {
 toolbar, .toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
-  background-color: #F5F6F7;
+  background-color: #E7E8EB;
    
     border: 1px solid shade (@titlebar_color, 0.56);
     border-width: 0 0 1px;
     box-shadow:
         inset 0 1px 0 0 alpha (@bg_highlight_color, 0.2),
         inset 0 -1px 0 0 alpha (@bg_highlight_color, 0.2);
-    background-image:
-        linear-gradient(
-            to bottom,
-            shade (
-                @titlebar_color,
-                0.88
-            ),
-            shade (
-                @titlebar_color,
-                0.84
-            )
-        );
+    background-image: none;
     text-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
     icon-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
 }

@@ -1,6 +1,6 @@
 * {
   background-clip: padding-box;
-  -GtkToolButton-icon-spacing: 4;
+  -GtkToolButton-icon-spacing: 2;
   -GtkTextView-error-underline-color: #FC4138;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
@@ -845,7 +845,7 @@ combobox arrow {
 
 toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
-  padding: 4px;
+  padding: 2px;
   background-color: #383C4A; }
   toolbar separator, .inline-toolbar separator {
     background: none; }
@@ -980,8 +980,8 @@ headerbar,
   .csd .default-decoration.titlebar:not(headerbar),
   .default-decoration.titlebar:backdrop:not(headerbar),
   .csd .default-decoration.titlebar:backdrop:not(headerbar) {
-    min-height: 28px;
-    padding: 0 3px;
+    min-height: 10px;
+    padding: 0;
     background-color: #2f343f;
     border-bottom-width: 0; }
     .maximized headerbar.default-decoration, .maximized
@@ -2859,7 +2859,7 @@ decoration {
   border-radius: 3px 3px 0 0;
   border-width: 0px;
   box-shadow: 0 0 0 1px rgba(32, 35, 43, 0.97), 0 8px 8px 0 rgba(0, 0, 0, 0.35);
-  margin: 10px; }
+  margin: 0px; } /* replace margin: 10px; */
   decoration:backdrop {
     box-shadow: 0 0 0 1px rgba(32, 35, 43, 0.87), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.35);
     transition: 200ms ease-out; }
