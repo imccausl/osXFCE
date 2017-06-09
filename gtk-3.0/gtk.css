@@ -1149,14 +1149,14 @@ window.csd > .titlebar:not(headerbar):backdrop {
       color: #FC4138; }
 
 .primary-toolbar button, headerbar button {
-  color: rgba(82, 93, 118, 0.8);
+  color: #353535;
   outline-offset: -3px;
   background-color: rgba(231, 232, 235, 0);
   border-color: rgba(231, 232, 235, 0); }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7; }
   .primary-toolbar button:hover, headerbar button:hover {
-    color: rgba(82, 93, 118, 0.8);
+    color: alpha(#353535, 0.8);
     border-color: rgba(82, 93, 118, 0.1);
     background-color: rgba(251, 251, 252, 0.9); }
   .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked {
