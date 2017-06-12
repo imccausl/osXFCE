@@ -9,7 +9,7 @@ Features include:
 - Window controls that are closer to one-another
 - A subtle gradient on gtk title and headerbars
 - Rounded corners on bottom of menu (requires a capable window manager for optimal display)
-- A corresponding Plank theme that more closely resembled the macOS Sierra dock
+- A corresponding Plank theme that more closely resembles the macOS Sierra dock
 
 ---
 Screenshot
