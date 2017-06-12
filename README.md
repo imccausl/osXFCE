@@ -24,7 +24,7 @@ git clone https://github.com/imccausl/osXFCE.git ~/
 cp -r ~/osXFCE ~/.themes/osXFCE
 ```
 
-To install the plank theme, copy `plank/flataOSX-Theme` to your `.local/share/plank/themes` directory.
+To install the plank theme, copy `plank/flatabOSX-Theme` to your `.local/share/plank/themes` directory.
 
 ---
 
