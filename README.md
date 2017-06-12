@@ -2,7 +2,7 @@ osXFCE Theme
 ---
 
 Yet another(?) macOS-like theme for Linux, osXFCE uses [arc-flatabulous](https://github.com/andreisergiu98/arc-flatabulous-theme) as its base, 
-but is deeply customized for uses with [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and XFCE.
+but is deeply customized for use with [vala-panel-appmenu](https://github.com/rilian-la-te/vala-panel-appmenu) and XFCE.
 
 Features include: 
 - Boldface Application dropdown menu
