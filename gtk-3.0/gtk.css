@@ -1558,7 +1558,6 @@ treeview.view {
         background-color: #E7E8EB;}
       menubar > menuitem,
       .menubar > menuitem { /* main menu items in panel */
-        font-weight: 600;
         min-height: 16px;
         padding: 3px 8px;
         border: 0 solid transparent;}
@@ -1600,7 +1599,6 @@ toolbutton button {
     menu,
     .menu { /* menu text of drop down part */
       padding: 4px 0;
-      font-weight: 500;
       background-color: #fcfcfc;
       border: 1px solid #858585;
       color: #2b2b2b; }
@@ -1699,12 +1697,13 @@ toolbutton button {
     box-shadow:none;
 }
 
-menubar.-vala-panel-appmenu-private:nth-child(2) menuitem label {
+.-vala-panel-appmenu-private > * > label,
+.-vala-panel-appmenu-private > * > *  > label {
   font-weight: 500;
 }
-
-menubar.-vala-panel-appmenu-private:nth-child(1) menuitem label {
-  font-weight: bold;
+.-vala-panel-appmenu-private:nth-child(1) > * > label {
+  font-weight: 700;
+}
 }
 
 .-vala-panel-background button:hover {
@@ -3757,7 +3756,6 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
 .panel {
   background-color: transparent;
   color: white;
-  font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   .panel-shadow {
@@ -3766,7 +3764,6 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   .panel .menu {
     box-shadow: none; }
     .panel .menu .menuitem {
-      font-weight: normal;
       text-shadow: none;
       -gtk-icon-shadow: none; }
     .panel .menu .window-frame.menu.csd,
@@ -4089,28 +4086,27 @@ GraniteWidgetsXsEntry entry {
 GtkListBox .h4 {
   padding-left: 6px; }
 
-#panel_window {
+/*#panel_window {
   background-color: rgba(43, 46, 55, 0.95);
-  color: #e7e8eb
-  font-weight: bold;
+  color: #e7e8eb;
   box-shadow: inset 0 -1px rgba(27, 29, 35, 0.95); }
   #panel_window menubar {
     padding-left: 5px; }
     #panel_window menubar, #panel_window menubar > menuitem {
       background-color: transparent;
       color: #e7e8eb
-      font-weight: 500; }
+      font-weight: 600; }
   #panel_window menubar menuitem:disabled {
     color: rgba(186, 195, 207, 0.5); }
     #panel_window menubar menuitem:disabled label {
       color: inherit; }
   #panel_window menubar menu > menuitem {
-    font-weight: normal; }
+    font-weight: 600; }*/
 
 #login_window,
 #shutdown_dialog,
 #restart_dialog {
-  font-weight: normal;
+  font-weight: 600;
   border-style: none;
   background-color: transparent;
   color: #353535; }
@@ -4213,7 +4209,7 @@ GtkListBox .h4 {
 
 #greeter_infobar {
   border-bottom-width: 0;
-  font-weight: bold; }
+  font-weight: 700; }
 
 .nautilus-window paned > separator {
   background-image: linear-gradient(to bottom, rgba(53, 57, 69, 0.95), rgba(53, 57, 69, 0.95)); }
