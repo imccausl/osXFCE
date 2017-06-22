@@ -1644,7 +1644,10 @@ toolbutton button {
             margin-right: 10px; }
       menu > arrow,
       .menu > arrow {
-        border-color: transparent;
+        border-top: transparent;
+        border-bottom: transparent;
+        border-left: 1px solid #858585;
+        border-right: 1px solid #858585;
         background-color: transparent;
         background-image: none;
         text-shadow: none;
@@ -1652,17 +1655,16 @@ toolbutton button {
         min-height: 16px;
         min-width: 16px;
         padding: 4px;
-        background-color: #fcfcfc;
-        border-radius: 0; }
+        background-color: #fcfcfc;}
         menu > arrow.top,
         .menu > arrow.top {
-          margin-top: -6px;
-          border-bottom: 1px solid #e9e9e9;
+          margin-bottom: -6px;
+          border-top: transparent;
           -gtk-icon-source: -gtk-icontheme("pan-up-symbolic"); }
         menu > arrow.bottom,
         .menu > arrow.bottom {
-          margin-bottom: -6px;
-          border-top: 1px solid #e9e9e9;
+          margin-top: -6px;
+          border-bottom: transparent;
           -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
         menu > arrow:hover,
         .menu > arrow:hover {
