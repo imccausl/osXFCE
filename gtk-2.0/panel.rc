@@ -5,8 +5,7 @@ style "theme-panel" {
 
   bg[NORMAL] = "#2B2E37"
   bg[ACTIVE] = @selected_bg_color
-  # bg[PRELIGHT] = "#3f4453"
-  bg[PRELIGHT] = image "assets/panel-background-hover.png"
+  bg[PRELIGHT] = "#3f4453"
   bg[SELECTED] = @selected_bg_color
 
   fg[NORMAL] = "#BAC3CF"
